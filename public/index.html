@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeJs Hub | Mohamed</title>
+    <meta name="description" content="Full-stack developer specializing in web services, automation bots, and custom solutions with a glitch aesthetic.">
+     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Ben10K-bot/TheMystic-Bot-MD/refs/heads/master/views/img/image4.png">
+    <meta name="keywords" content="developer, bot development, web development, automation, discord bots, telegram bots">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/glitch.css">
+    <link rel="stylesheet" href="/css/themes.css">
+</head>
+<body class="dark-theme">
+
+    <div id="loading-screen" class="loading-screen">
+        <div class="glitch-loader">
+            <div class="glitch-text" data-text="LOADING">LOADING</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="glitch-text" data-text="CodeJsHub">CodeJsHub</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="glitch-text" data-text="Alex DevGlitch">Alex DevGlitch</span>
+                        </h1>
+                        <h2 class="hero-subtitle" id="hero-subtitle">Full-Stack Developer & Bot Specialist</h2>
+                        <p class="hero-description" id="hero-description">
+                            Crafting digital experiences with a glitch aesthetic
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number" id="experience">6+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="projects">150</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="clients">3000</span>
+                                <span class="stat-label">Satisfied Clients</span>
+                            </div>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#services" class="btn btn-primary glitch-btn">
+                                <span>View Services</span>
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">
+                                <span>Contact Me</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="avatar-container">
+                            <div class="avatar-frame">
+                                <img src="/images/avatar.jpg" alt="Mohamed osama" class="avatar-image" id="avatar-image">
+                                <div class="avatar-glitch"></div>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element" data-speed="2">🕷</div>
+                            <div class="floating-element" data-speed="3">🌐</div>
+                            <div class="floating-element" data-speed="1.5">👨🏽‍💻</div>
+                            <div class="floating-element" data-speed="2.5">🕸</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title glitch-text" data-text="About Me">About Me</h2>
+                    <p class="section-subtitle">Get to know the developer behind the glitch</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-bio" id="about-bio">
+                            Passionate developer specializing in web services, automation bots, and custom solutions. 
+                            I transform ideas into reality with clean code and creative design.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Location:</span>
+                                <span class="detail-value" id="location">Saudi Arabia</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Email:</span>
+                                <span class="detail-value" id="email">xg341123@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Status:</span>
+                                <span class="detail-value status-available" id="availability">Available for freelance projects</span>
+                            </div>
+                        </div>
+                        <div class="social-links" id="social-slinks">
+                            
+                <a href="https://wa.me/966547540321" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+
+                <a href="https://github.com/Ben10K-bot" class="social-btn github"><i class="fab fa-github"></i></a>
+
+                <a href="https://facebook.com/mohamed.osama.778966" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                
+                <a href="https://www.instagram.com/mohamedosama6081" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title glitch-text" data-text="Services">Services</h2>
+                    <p class="section-subtitle">Specialized solutions for your digital needs</p>
+                </div>
+                <div class="services-grid" id="services-grid">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title glitch-text" data-text="Skills">Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </div>
+                <div class="skills-container" id="skills-container">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title glitch-text" data-text="Contact Me">Contact Me</h2>
+                    <p class="section-subtitle">Ready to start your next project?</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p id="contact-email">xg341123@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h3>WhatsApp</h3>
+                                <p id="contact-phone">+966547540321</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🌍</div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p id="contact-location">Saudi Arabia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form class="form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-input">Email</label>
+                                <input type="email" id="email-input" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary glitch-btn">
+                                <span>Send via WhatsApp</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Mohamed Osama. All rights reserved.</p>
+                    <p>Built with ❤️ and a touch of glitch</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/glitch.js"></script>
+    <script src="/js/animations.js"></script>
+    <script src="/js/whatsapp.js"></script>
+</body>
+</html>

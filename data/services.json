@@ -1,0 +1,154 @@
+{
+  "services": [
+    {
+      "id": "whatsapp-bots",
+      "name": "WhatsApp Bot Development",
+      "description": "Professional WhatsApp bots using handler-based architecture for automation, commands, and media handling.",
+      "icon": "💬",
+      "price": "Starting at 100 SAR",
+      "features": [
+        "Custom commands with handler structure",
+        "API integration (e.g., ChatGPT)",
+        "Media & file support",
+        "Auto-replies and dynamic menus",
+        "Runs on Termux or VPS"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "frontend-dev",
+      "name": "Frontend Development",
+      "description": "Responsive and modern frontend design using the latest technologies and best practices.",
+      "icon": "🎨",
+      "price": "Starting at 200 SAR",
+      "features": [
+        "HTML, CSS, JavaScript",
+        "React.js or Vue.js",
+        "Responsive design for all devices",
+        "Animation & effects",
+        "Performance optimized"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "backend-dev",
+      "name": "Backend Development",
+      "description": "Secure and scalable backend systems tailored for your application needs.",
+      "icon": "🧠",
+      "price": "Starting at 250 SAR",
+      "features": [
+        "Node.js or Python backend",
+        "RESTful API creation",
+        "Authentication & JWT",
+        "Database integration (MongoDB, MySQL)",
+        "Error handling & logging"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "automation",
+      "name": "Task Automation & Scripts",
+      "description": "Scripts to automate daily tasks, extract data, and integrate systems efficiently.",
+      "icon": "⚙️",
+      "price": "Starting at 80 SAR",
+      "features": [
+        "Scheduled tasks & cron jobs",
+        "Web scraping & parsing",
+        "Media/file handling",
+        "API request handling",
+        "Runs on cloud/VPS/Termux"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity & Ethical Hacking",
+      "description": "Ethical hacking services to test, secure, and patch vulnerabilities in your system or website.",
+      "icon": "🛡️",
+      "price": "Starting at 180 SAR",
+      "features": [
+        "Vulnerability testing (SQLi, XSS, etc.)",
+        "Basic penetration testing",
+        "Fixing bugs & patching exploits",
+        "Server security hardening",
+        "Reports & suggestions"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "custom-tools",
+      "name": "Custom Software Tools",
+      "description": "Tailored tools built to solve specific problems or automate your work.",
+      "icon": "🧰",
+      "price": "Starting at 150 SAR",
+      "features": [
+        "CLI or UI-based tools",
+        "Built from scratch per request",
+        "Supports automation & APIs",
+        "Full source code included",
+        "Simple documentation"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "uiux",
+      "name": "UI/UX Design",
+      "description": "Simple and clean designs focused on user experience and visual appeal.",
+      "icon": "📐",
+      "price": "Starting at 100 SAR",
+      "features": [
+        "Figma or XD designs",
+        "User flows & wireframes",
+        "Mobile-first approach",
+        "Dark & light themes",
+        "Feedback-based iterations"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "chatbot-integration",
+      "name": "Chatbot Integration",
+      "description": "Smart chatbot systems for your platform using AI and pre-set flows.",
+      "icon": "🤖",
+      "price": "Starting at 150 SAR",
+      "features": [
+        "WhatsApp / Telegram / Web bots",
+        "ChatGPT or Dialogflow integration",
+        "Webhook & API connectivity",
+        "Custom conversation flows",
+        "Basic analytics & logging"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "portfolio-websites",
+      "name": "Portfolio Website Development",
+      "description": "Create a personal website to showcase your projects and skills.",
+      "icon": "🧑‍💻",
+      "price": "Starting at 120 SAR",
+      "features": [
+        "Clean and modern layout",
+        "Project showcase section",
+        "Contact form & social links",
+        "Mobile-friendly design",
+        "Fast loading & SEO ready"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    },
+    {
+      "id": "vps-setup",
+      "name": "VPS Setup & Deployment",
+      "description": "Server configuration and deployment for your bots, websites, or tools.",
+      "icon": "🌐",
+      "price": "Starting at 90 SAR",
+      "features": [
+        "Initial server setup",
+        "Node.js/Python environment",
+        "SSH & firewall config",
+        "App deployment & testing",
+        "Ongoing basic support"
+      ],
+      "deliveryTime": "Depends on project & workload"
+    }
+  ]
+}

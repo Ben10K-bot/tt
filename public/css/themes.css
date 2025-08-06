@@ -1,0 +1,528 @@
+:root {
+    
+    --light-bg-primary: #ffffff;
+    --light-bg-secondary: #f8f9fa;
+    --light-bg-tertiary: #e9ecef;
+    --light-text-primary: #212529;
+    --light-text-secondary: #6c757d;
+    --light-accent-primary: #dc3545;
+    --light-accent-secondary: #fd7e14;
+    --light-accent-tertiary: #e83e8c;
+    --light-border: #dee2e6;
+    --light-shadow: rgba(0, 0, 0, 0.1);
+    --light-glitch-1: #ff0000;
+    --light-glitch-2: #ff6b6b;
+    --light-glitch-3: #ff9999;
+
+
+    --green-color: #00ff2a;
+    
+    
+    --dark-bg-primary: #0a0a0a;
+    --dark-bg-secondary: #1a1a1a;
+    --dark-bg-tertiary: #2a2a2a;
+    --dark-text-primary: #ffffff;
+    --dark-text-secondary: #b0b0b0;
+    --dark-accent-primary: #00ffff;
+    --dark-accent-secondary: #00ff88;
+    --dark-accent-tertiary: #8800ff;
+    --dark-border: #333333;
+    --dark-shadow: rgba(0, 255, 255, 0.2);
+    --dark-glitch-1: #00ffff;
+    --dark-glitch-2: #00ff88;
+    --dark-glitch-3: #8800ff;
+}
+
+.light-theme {
+    --bg-primary: var(--light-bg-primary);
+    --bg-secondary: var(--light-bg-secondary);
+    --bg-tertiary: var(--light-bg-tertiary);
+    --text-primary: var(--light-text-primary);
+    --text-secondary: var(--light-text-secondary);
+    --accent-primary: var(--light-accent-primary);
+    --accent-secondary: var(--light-accent-secondary);
+    --accent-tertiary: var(--light-accent-tertiary);
+    --border-color: var(--light-border);
+    --shadow-color: var(--light-shadow);
+    --glitch-color-1: var(--light-glitch-1);
+    --glitch-color-2: var(--light-glitch-2);
+    --glitch-color-3: var(--light-glitch-3);
+}
+
+.dark-theme {
+    --bg-primary: var(--dark-bg-primary);
+    --bg-secondary: var(--dark-bg-secondary);
+    --bg-tertiary: var(--dark-bg-tertiary);
+    --text-primary: var(--dark-text-primary);
+    --text-secondary: var(--dark-text-secondary);
+    --accent-primary: var(--dark-accent-primary);
+    --accent-secondary: var(--dark-accent-secondary);
+    --accent-tertiary: var(--dark-accent-tertiary);
+    --border-color: var(--dark-border);
+    --shadow-color: var(--dark-shadow);
+    --glitch-color-1: var(--dark-glitch-1);
+    --glitch-color-2: var(--dark-glitch-2);
+    --glitch-color-3: var(--dark-glitch-3);
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.loading-screen {
+    background-color: var(--bg-primary);
+}
+
+.loading-bar {
+    background-color: var(--bg-tertiary);
+}
+
+.loading-progress {
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
+}
+
+.navbar.scrolled {
+    background-color: rgba(var(--bg-primary), 0.9);
+    border-bottom-color: var(--border-color);
+}
+
+.nav-link {
+    color: var(--text-primary);
+}
+
+.nav-link::after {
+    background-color: var(--accent-primary);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--accent-primary);
+}
+
+.theme-toggle {
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.theme-toggle:hover {
+    background-color: var(--bg-tertiary);
+    color: var(--accent-primary);
+}
+
+.nav-toggle span {
+    background-color: var(--text-primary);
+}
+
+.nav-menu {
+    background-color: blur(var(--bg-primary)), 0.5;
+    border-top-color: blur(var(--border-color)), 0.1;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.hero-title {
+    color: var(--text-primary);
+}
+
+.hero-subtitle {
+    color: var(--accent-primary);
+}
+
+.hero-description {
+    color: var(--text-secondary);
+}
+
+.stat-number {
+    color: var(--accent-primary);
+}
+
+.stat-label {
+    color: var(--text-secondary);
+}
+
+.avatar-frame {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 30px var(--shadow-color);
+}
+
+.scroll-indicator {
+    color: var(--text-secondary);
+}
+
+.scroll-arrow {
+    border-color: var(--text-secondary);
+}
+
+.about-section {
+    background-color: var(--bg-secondary);
+}
+
+.detail-item {
+    background-color: var(--bg-primary);
+    border-color: var(--border-color);
+}
+
+.detail-label {
+    color: var(--text-primary);
+}
+
+.detail-value {
+    color: var(--text-secondary);
+}
+
+.status-available {
+    color: var(--green-color);
+}
+
+.social-link {
+    color: var(--text-primary);
+    border-color: var(--border-color);
+    background-color: var(--bg-primary);
+}
+
+.social-link:hover {
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
+.services-section {
+    background-color: var(--bg-primary);
+}
+
+.service-card {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    box-shadow: 0 4px 20px var(--shadow-color);
+}
+
+.service-card:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 8px 30px var(--shadow-color);
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    color: var(--accent-primary);
+}
+
+.service-title {
+    color: var(--text-primary);
+}
+
+.service-description {
+    color: var(--text-secondary);
+}
+
+.service-features li::before {
+    color: var(--accent-secondary);
+}
+
+.service-price {
+    color: var(--accent-primary);
+}
+
+.service-delivery {
+    color: var(--text-secondary);
+}
+
+.skills-section {
+    background-color: var(--bg-secondary);
+}
+
+.skill-category {
+    background-color: var(--bg-primary);
+    border-color: var(--border-color);
+    box-shadow: 0 4px 20px var(--shadow-color);
+}
+
+.skill-category-title {
+    color: var(--accent-primary);
+}
+
+.skill-name {
+    color: var(--text-primary);
+}
+
+.skill-level {
+    color: var(--accent-primary);
+}
+
+.skill-bar {
+    background-color: var(--bg-tertiary);
+}
+
+.skill-progress {
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.contact-section {
+    background-color: var(--bg-primary);
+}
+
+.contact-item {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+.contact-icon {
+    color: var(--accent-primary);
+}
+
+.contact-details h3 {
+    color: var(--text-primary);
+}
+
+.contact-details p {
+    color: var(--text-secondary);
+}
+
+.contact-form {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+.form-group label {
+    color: var(--text-primary);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    background-color: var(--bg-primary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(var(--accent-primary), 0.1);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    border-color: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--accent-secondary), var(--accent-tertiary));
+    box-shadow: 0 0 20px var(--shadow-color);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
+.footer {
+    background-color: var(--bg-secondary);
+    border-top-color: var(--border-color);
+    color: var(--text-secondary);
+}
+
+.footer-links a {
+    color: var(--text-secondary);
+}
+
+.footer-links a:hover {
+    color: var(--accent-primary);
+}
+
+.glitch-text::before {
+    color: var(--glitch-color-1);
+    text-shadow: 2px 0 var(--glitch-color-2);
+}
+
+.glitch-text::after {
+    color: var(--glitch-color-2);
+    text-shadow: -2px 0 var(--glitch-color-3);
+}
+
+.glitch-border::before {
+    border-color: var(--glitch-color-1);
+}
+
+.section-title {
+    color: var(--text-primary);
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+}
+
+.light-theme .glitch-text::before {
+    animation: glitch-light-1 0.5s infinite linear alternate-reverse;
+}
+
+.light-theme .glitch-text::after {
+    animation: glitch-light-2 0.5s infinite linear alternate-reverse;
+}
+
+.dark-theme .glitch-text::before {
+    animation: glitch-dark-1 0.5s infinite linear alternate-reverse;
+}
+
+.dark-theme .glitch-text::after {
+    animation: glitch-dark-2 0.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-light-1 {
+    0% { 
+        transform: translateX(0); 
+        text-shadow: 2px 0 var(--light-glitch-2), -2px 0 var(--light-glitch-3);
+    }
+    20% { 
+        transform: translateX(-2px); 
+        text-shadow: 3px 0 var(--light-glitch-2), -3px 0 var(--light-glitch-3);
+    }
+    40% { 
+        transform: translateX(-2px); 
+        text-shadow: 2px 0 var(--light-glitch-2), -2px 0 var(--light-glitch-3);
+    }
+    60% { 
+        transform: translateX(2px); 
+        text-shadow: -2px 0 var(--light-glitch-2), 2px 0 var(--light-glitch-3);
+    }
+    80% { 
+        transform: translateX(2px); 
+        text-shadow: -3px 0 var(--light-glitch-2), 3px 0 var(--light-glitch-3);
+    }
+    100% { 
+        transform: translateX(0); 
+        text-shadow: 2px 0 var(--light-glitch-2), -2px 0 var(--light-glitch-3);
+    }
+}
+
+@keyframes glitch-light-2 {
+    0% { 
+        transform: translateX(0); 
+        text-shadow: -2px 0 var(--light-glitch-1), 2px 0 var(--light-glitch-3);
+    }
+    20% { 
+        transform: translateX(2px); 
+        text-shadow: -3px 0 var(--light-glitch-1), 3px 0 var(--light-glitch-3);
+    }
+    40% { 
+        transform: translateX(2px); 
+        text-shadow: -2px 0 var(--light-glitch-1), 2px 0 var(--light-glitch-3);
+    }
+    60% { 
+        transform: translateX(-2px); 
+        text-shadow: 2px 0 var(--light-glitch-1), -2px 0 var(--light-glitch-3);
+    }
+    80% { 
+        transform: translateX(-2px); 
+        text-shadow: 3px 0 var(--light-glitch-1), -3px 0 var(--light-glitch-3);
+    }
+    100% { 
+        transform: translateX(0); 
+        text-shadow: -2px 0 var(--light-glitch-1), 2px 0 var(--light-glitch-3);
+    }
+}
+
+@keyframes glitch-dark-1 {
+    0% { 
+        transform: translateX(0); 
+        text-shadow: 2px 0 var(--dark-glitch-2), -2px 0 var(--dark-glitch-3);
+    }
+    20% { 
+        transform: translateX(-2px); 
+        text-shadow: 3px 0 var(--dark-glitch-2), -3px 0 var(--dark-glitch-3);
+    }
+    40% { 
+        transform: translateX(-2px); 
+        text-shadow: 2px 0 var(--dark-glitch-2), -2px 0 var(--dark-glitch-3);
+    }
+    60% { 
+        transform: translateX(2px); 
+        text-shadow: -2px 0 var(--dark-glitch-2), 2px 0 var(--dark-glitch-3);
+    }
+    80% { 
+        transform: translateX(2px); 
+        text-shadow: -3px 0 var(--dark-glitch-2), 3px 0 var(--dark-glitch-3);
+    }
+    100% { 
+        transform: translateX(0); 
+        text-shadow: 2px 0 var(--dark-glitch-2), -2px 0 var(--dark-glitch-3);
+    }
+}
+
+@keyframes glitch-dark-2 {
+    0% { 
+        transform: translateX(0); 
+        text-shadow: -2px 0 var(--dark-glitch-1), 2px 0 var(--dark-glitch-3);
+    }
+    20% { 
+        transform: translateX(2px); 
+        text-shadow: -3px 0 var(--dark-glitch-1), 3px 0 var(--dark-glitch-3);
+    }
+    40% { 
+        transform: translateX(2px); 
+        text-shadow: -2px 0 var(--dark-glitch-1), 2px 0 var(--dark-glitch-3);
+    }
+    60% { 
+        transform: translateX(-2px); 
+        text-shadow: 2px 0 var(--dark-glitch-1), -2px 0 var(--dark-glitch-3);
+    }
+    80% { 
+        transform: translateX(-2px); 
+        text-shadow: 3px 0 var(--dark-glitch-1), -3px 0 var(--dark-glitch-3);
+    }
+    100% { 
+        transform: translateX(0); 
+        text-shadow: -2px 0 var(--dark-glitch-1), 2px 0 var(--dark-glitch-3);
+    }
+}
+
+.theme-toggle .theme-icon {
+    transition: transform var(--transition-normal);
+}
+
+.light-theme .theme-toggle .theme-icon {
+    transform: rotate(0deg);
+}
+
+.dark-theme .theme-toggle .theme-icon {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .light-theme {
+        --shadow-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .dark-theme {
+        --shadow-color: rgba(0, 255, 255, 0.1);
+    }
+}
+
+@media (prefers-contrast: high) {
+    .light-theme {
+        --bg-primary: #ffffff;
+        --text-primary: #000000;
+        --accent-primary: #cc0000;
+    }
+    
+    .dark-theme {
+        --bg-primary: #000000;
+        --text-primary: #ffffff;
+        --accent-primary: #00ffff;
+    }
+}

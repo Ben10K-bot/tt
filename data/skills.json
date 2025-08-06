@@ -1,0 +1,119 @@
+{
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "skills": [
+        {
+          "name": "HTML/CSS",
+          "level": 90,
+          "icon": "📄",
+          "color": "#e34f26"
+        },
+        {
+          "name": "JavaScript",
+          "level": 88,
+          "icon": "🟨",
+          "color": "#f7df1e"
+        },
+        {
+          "name": "jQuery",
+          "level": 85,
+          "icon": "💻",
+          "color": "#0769ad"
+        }
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "skills": [
+        {
+          "name": "Node.js",
+          "level": 90,
+          "icon": "🟢",
+          "color": "#339933"
+        },
+        {
+          "name": "Express.js",
+          "level": 88,
+          "icon": "🚀",
+          "color": "#000000"
+        },
+        {
+          "name": "JSON & REST APIs",
+          "level": 85,
+          "icon": "📦",
+          "color": "#2196f3"
+        }
+      ]
+    },
+    {
+      "name": "Bot Development",
+      "skills": [
+        {
+          "name": "WhatsApp Bots (Handler)",
+          "level": 95,
+          "icon": "💬",
+          "color": "#25d366"
+        },
+        {
+          "name": "Telegram Bots",
+          "level": 88,
+          "icon": "📱",
+          "color": "#0088cc"
+        },
+        {
+          "name": "Automation Scripts",
+          "level": 90,
+          "icon": "🤖",
+          "color": "#ff6b6b"
+        }
+      ]
+    },
+    {
+      "name": "System & Tools",
+      "skills": [
+        {
+          "name": "Linux & VPS",
+          "level": 85,
+          "icon": "🐧",
+          "color": "#000000"
+        },
+        {
+          "name": "Web Scraping",
+          "level": 82,
+          "icon": "🕷️",
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Basic Shell Scripting",
+          "level": 75,
+          "icon": "📟",
+          "color": "#607d8b"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity Basics",
+      "skills": [
+        {
+          "name": "Vulnerability Testing",
+          "level": 70,
+          "icon": "🧪",
+          "color": "#f46036"
+        },
+        {
+          "name": "Bug Fixing & Patching",
+          "level": 78,
+          "icon": "🩹",
+          "color": "#00bfa5"
+        },
+        {
+          "name": "Nmap & Recon Tools",
+          "level": 65,
+          "icon": "📡",
+          "color": "#2e86ab"
+        }
+      ]
+    }
+  ]
+}

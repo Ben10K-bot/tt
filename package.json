@@ -1,0 +1,28 @@
+{
+  "name": "mohamed-portfolio",
+  "version": "1.0.0",
+  "description": "Modern glitch-styled portfolio with Node.js, Express, and WhatsApp integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "glitch",
+    "express",
+    "nodejs",
+    "whatsapp",
+    "responsive"
+  ],
+  "author": "Mohamed Osama",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}
